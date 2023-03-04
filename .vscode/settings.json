@@ -1,0 +1,35 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "build": true,
+    ".packages": true,
+    ".dart_tool": true,
+    "**/*.g.dart": true,
+    "**/*.freezed.dart": true
+  },
+  "dart.lineLength": 100,
+  "cSpell.enableFiletypes": [
+    "dart"
+  ],
+  "cSpell.ignorePaths": [
+    "**/pubspec.lock",
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/objects/**",
+    "**/assets/l10n/**",
+    "!**/assets/l10n/**/*yaml",
+    "**/assets/feeds/**",
+    "**/project.pbxproj",
+    "**/Podfile.lock"
+  ],
+  "cSpell.language": "en,da",
+  "cSpell.words": [
+    "pbxproj",
+    "Podfile",
+    "pubspec"
+  ]
+}
